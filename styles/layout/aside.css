@@ -1,0 +1,34 @@
+div.aside{
+    width: 244px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.aside__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 24px;
+}
+
+.aside a{
+    margin: 8px 0 8px 0;
+    padding-bottom: 18px;
+}
+
+.aside__instagram{
+    width: 103px;
+    height: 29px;
+    margin: 40px 0 31px 24px;
+}
+
+.aside__icons{
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.aside__profile{
+    border-radius: 100%;   
+}

@@ -1,0 +1,84 @@
+header{
+    width: 935px;
+    height: 441px;
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+
+.button{
+    width: 90px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header__profile{
+    display: flex;
+    flex-direction: row;
+    padding:73px 252px 55px 71px;
+}
+
+.header__icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: 101px;
+}
+
+.header__stats{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    float: right;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 380px;
+}
+
+.header__user{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items:center;
+    width: 272px;   
+}
+
+.header__name{font-weight: bold;}
+
+.header__stories{
+    display: flex;
+    flex-direction: row;
+    padding-left: 55px;
+}
+
+.stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 30px 15px 30px;
+}
+
+.stories p{
+    padding-top: 15px;
+}
+
+.header__stories img{
+    width: 67px;
+    height: 67px;
+    border-radius: 100%;
+}
+

@@ -1,0 +1,40 @@
+html{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+body{
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: #FAFAFA;
+display: flex;
+}
+
+.left__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.right__column{
+    display: flex;
+    flex-direction: column;
+    width: 935px;
+    height: 100%;
+}
+
+div.aside{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+a{color: #262626;} 
+
+
+
+footer a{ color: #8E8E8E;}
+
+
+
+ 
