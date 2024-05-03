@@ -3,7 +3,7 @@
     height: 1960px;
     margin-bottom: 24px;
     font-size: 0.8rem;
-    border-top: 1px solid #8E8E8E;
+    border-top: solid 1px  #8E8E8E;
 }
 
 .main__tabs{
@@ -37,8 +37,7 @@
 
 .main__gallery{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     width: 935px;
     height: 935px;
