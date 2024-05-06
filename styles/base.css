@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/Clon-Instagram/assets/font/SegoeUI-Light.eot');
+    src: local('Segoe UI Light'), local('SegoeUI-Light'),
+        url('/Clon-Instagram/assets/font/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+        url('/Clon-Instagram/assets/font/SegoeUI-Light.woff2') format('woff2'),
+        url('/Clon-Instagram/assets/font/SegoeUI-Light.woff') format('woff'),
+        url('/Clon-Instagram/assets/font/SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 html{
     font-size: 16px;
     font-weight: 100;
